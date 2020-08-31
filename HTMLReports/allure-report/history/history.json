@@ -1,0 +1,42 @@
+{
+  "d6457fc047a7f60b7cff81be0a93fb4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17f42bffceb9a68c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string\n  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1594273511585,
+        "stop" : 1594273511675,
+        "duration" : 90
+      }
+    } ]
+  },
+  "2c679894aa0d32dc8664795cc871e26f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa20b9d387601551",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1594273476440,
+        "stop" : 1594273502699,
+        "duration" : 26259
+      }
+    } ]
+  }
+}

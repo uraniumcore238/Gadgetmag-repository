@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_e2e",
+        "uid" : "aa20b9d387601551",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594273476440,
+          "stop" : 1594273502699,
+          "duration" : 26259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string\n  (Session info: chrome=83.0.4103.116)",
+      "children" : [ {
+        "name" : "test_order_one",
+        "uid" : "17f42bffceb9a68c",
+        "parentUid" : "99b103f1fa4e1c49cb935018ccd7024f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594273511585,
+          "stop" : 1594273511675,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99b103f1fa4e1c49cb935018ccd7024f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

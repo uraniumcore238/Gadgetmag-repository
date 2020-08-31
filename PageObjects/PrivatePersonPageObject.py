@@ -1,0 +1,2 @@
+class PrivatePersonPageObject:
+    pass
